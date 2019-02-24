@@ -44,8 +44,8 @@ class crud {
      */
     public function insert($multiArray) {
 
-        $table = 'company';
-        $columns = array('company_id', 'company_name', 'company_city');
+        $table = 'books';
+        $columns = array('title', 'primary_author');
         $columns2 = implode(",",$columns);
         $pdo = $this->connectDb;
         $pdo->beginTransaction();
@@ -68,11 +68,9 @@ class crud {
         try {
             $stmt->execute($paramArray);
             $count = $stmt->rowCount();
-
-            //print $last_insert_id = $pdo->lastInsertId();
             $pdo->commit();
 
-            return print("Inserted $count rows.\n");
+            return print("rows CREATED successfully  $count \n");
         } catch (PDOException $e){
             $pdo->rollBack();
             echo $e->getMessage();
@@ -93,24 +91,24 @@ class crud {
             $id[] = (int)$val;
         }
         $id = implode(',', $id);
-        $stmt = $pdo->prepare("DELETE FROM users WHERE id IN ($id)");
+        $stmt = $pdo->prepare("DELETE FROM books WHERE id IN ($id)");
         $stmt->execute();
 
         $countDel = $stmt->rowCount();
-        return ($countDel != 0) ?  print $countDel . "rows DELETED successfully" :  print $countDel . "rows DELETED";
+        return ($countDel != 0) ?  print  "rows DELETED successfully ". $countDel  :  print $countDel . "rows DELETED";
     }
 
     /**
      * update multiple rows inside table
      * $array = [
-            "option"  => "value"
-            ];
+    "title"  => "primary_author"
+    ];
      * @param array $arrayUpdate
      * @return int number of updated records
      */
     public function update($arrayUpdate) {
         $pdo = $this->connectDb;
-        $stmt = $pdo->prepare("UPDATE ini SET option = ? WHERE value = ?");
+        $stmt = $pdo->prepare("UPDATE books SET title = ? WHERE primary_author = ?");
         foreach($arrayUpdate as $k => $v) {
             $id = $k;
             $column_value = $v;
@@ -118,7 +116,7 @@ class crud {
         }
 
         $rowCounter = $stmt->rowCount();
-        return ($rowCounter != 0) ? print $rowCounter . " records UPDATE successfully" : print $rowCounter . " records UPDATED";
+        return ($rowCounter != 0) ? print  " records UPDATE successfully " . $rowCounter : print $rowCounter . " records UPDATED";
     }
 
     public function getConnect() {
