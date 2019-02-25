@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce018069-9d38-4344-bb32-7ec6fd193915" name="Default" comment="" />
+    <list default="true" id="ce018069-9d38-4344-bb32-7ec6fd193915" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crud.php" afterPath="$PROJECT_DIR$/src/Crud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.php" afterPath="$PROJECT_DIR$/src/config.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +15,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Crud.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crud.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            <state relative-caret-position="-293">
+              <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1550966251735" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
-                <marker date="1550966251735" expanded="true" signature="2325:2360" ph="DELETE FROM " />
-                <marker date="1550966251735" expanded="true" signature="2857:2908" ph="UPDATE books... " />
+                <marker date="1551133939308" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
+                <marker date="1551133939308" expanded="true" signature="2325:2360" ph="DELETE FROM " />
+                <marker date="1551133939308" expanded="true" signature="2857:2908" ph="UPDATE books... " />
               </folding>
             </state>
           </provider>
@@ -30,7 +33,7 @@
       <file leaf-file-name="ConnectDb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectDb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1345">
+            <state relative-caret-position="787">
               <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
@@ -39,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectDbTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectDbTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/ConnectDbTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -54,8 +57,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,6 +81,7 @@
         <option value="$PROJECT_DIR$/tests/CrudTest.php" />
         <option value="$PROJECT_DIR$/tests/ConnectDbTest.php" />
         <option value="$PROJECT_DIR$/src/ConnectDb.php" />
+        <option value="$PROJECT_DIR$/src/config.php" />
         <option value="$PROJECT_DIR$/src/Crud.php" />
       </list>
     </option>
@@ -111,34 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="mytest">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="mytest">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="tests">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,6 +154,34 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="mytest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="mytest">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -282,11 +286,12 @@
       <workItem from="1550479721758" duration="6619000" />
       <workItem from="1550701714583" duration="2551000" />
       <workItem from="1550966091532" duration="1231000" />
+      <workItem from="1551133894498" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10401000" />
+    <option name="totallyTimeSpent" value="10455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1934" height="1036" extended-state="0" />
@@ -324,13 +329,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Crud.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1551133939308" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
+            <marker date="1551133939308" expanded="true" signature="2325:2360" ph="DELETE FROM " />
+            <marker date="1551133939308" expanded="true" signature="2857:2908" ph="UPDATE books... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ConnectDbTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crud.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
           <caret line="124" column="75" lean-forward="true" selection-start-line="124" selection-start-column="75" selection-end-line="124" selection-end-column="75" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1550966251735" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
-            <marker date="1550966251735" expanded="true" signature="2325:2360" ph="DELETE FROM " />
-            <marker date="1550966251735" expanded="true" signature="2857:2908" ph="UPDATE books... " />
+            <marker date="1551133939308" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
+            <marker date="1551133939308" expanded="true" signature="2325:2360" ph="DELETE FROM " />
+            <marker date="1551133939308" expanded="true" signature="2857:2908" ph="UPDATE books... " />
           </folding>
         </state>
       </provider>
@@ -401,9 +447,9 @@
           <caret line="117" column="33" lean-forward="false" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1550966251735" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
-            <marker date="1550966251735" expanded="true" signature="2325:2360" ph="DELETE FROM " />
-            <marker date="1550966251735" expanded="true" signature="2857:2908" ph="UPDATE books... " />
+            <marker date="1551133939308" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
+            <marker date="1551133939308" expanded="true" signature="2325:2360" ph="DELETE FROM " />
+            <marker date="1551133939308" expanded="true" signature="2857:2908" ph="UPDATE books... " />
           </folding>
         </state>
       </provider>
@@ -416,18 +462,31 @@
     <entry file="file://$PROJECT_DIR$/tests/SingletonTest.php" />
     <entry file="file://$PROJECT_DIR$/src/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConnectDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1345">
+        <state relative-caret-position="787">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="85" column="26" lean-forward="false" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1551133939308" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
+            <marker date="1551133939308" expanded="true" signature="2325:2360" ph="DELETE FROM " />
+            <marker date="1551133939308" expanded="true" signature="2857:2908" ph="UPDATE books... " />
           </folding>
         </state>
       </provider>
@@ -438,19 +497,6 @@
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crud.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="119" column="5" lean-forward="false" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1550966251735" expanded="true" signature="1189:1226" ph="insert into ${$table}... " />
-            <marker date="1550966251735" expanded="true" signature="2325:2360" ph="DELETE FROM " />
-            <marker date="1550966251735" expanded="true" signature="2857:2908" ph="UPDATE books... " />
           </folding>
         </state>
       </provider>
